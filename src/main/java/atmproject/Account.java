@@ -168,7 +168,7 @@ public class Account {
     public void disPlayCurrentAmount(double balance) {
         System.out.println("Checking hesabinzda bulunan bakiye: " + monyFormat.format(balance));
     }
-
+System.out.println("Allah'im lütfen olsun1);
 
 }
 
