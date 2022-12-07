@@ -155,6 +155,7 @@ public class Account {
         double amount = input.nextDouble();
         if (amount <= 0) {
             System.out.println("Sifir veya eksi miktarlar gecersizdir!");
+            System.out.println("Sifir veya eksi miktarlar gecersizdir! loooooooow");
             getSavingWithdraw();
         } else {
             calculateSavingBalanceAfterwithDeposit(amount);
@@ -168,7 +169,5 @@ public class Account {
     public void disPlayCurrentAmount(double balance) {
         System.out.println("Checking hesabinzda bulunan bakiye: " + monyFormat.format(balance));
     }
-System.out.println("Allah'im lütfen olsun");
-
 }
 
